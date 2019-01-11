@@ -3,7 +3,7 @@ $id=filter_input(INPUT_GET,"id");
 
 require_once 'Config.php';
 
-$db=new PDO("mysql:host=" . Config::SERVEUR . "dbname=" . Config::BASE, Config::USER, Config::MDP);
+$db = new PDO("mysql:host=" . Config::SERVEUR . "dbname=" . Config::BASE, Config::USER, Config::MDP);
 $r = $db->prepare("select * from personnes");
 $r->execute;
 

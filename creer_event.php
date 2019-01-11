@@ -9,8 +9,7 @@
             <label for="titre">Nom de l'Event</label>
         </div>
         <div class="input-field col s12">
-            <textarea id="description" name="description"
-                      class="materialize-textarea"></textarea>
+            <textarea id="description" name="description" class="materialize-textarea"></textarea>
             <label for="description">Description</label>
         </div>
         <div class="input-field col s12">
