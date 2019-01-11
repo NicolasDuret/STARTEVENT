@@ -1,7 +1,13 @@
 <?php include_once "header.php" ?>
 
 <h1>Créez votre évènement :</h1>
-
+<?php
+require_once 'Config.php';
+$db = new PDO("mysql:host=" . Config::SERVEUR . ";dbname=" . Config::BASE
+    , Config::USER, Config::MDP);
+$r = $db->prepare("select id, titre, description from event");
+$r->execute();
+?>
 <form action="actions/creerEvent.php" method="post">
     <div class="row">
         <div class="input-field col s12">
