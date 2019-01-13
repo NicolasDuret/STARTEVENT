@@ -13,5 +13,4 @@ $r->bindParam(":description", $description);
 
 $r->execute();
 
-// faire le lien avec tableau LEO
-header('Location: ../ajouter_personne.php');
+header('Location: ../index.php');
