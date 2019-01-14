@@ -23,7 +23,7 @@ $resultats = $r2->fetch();
 
 ?>
 
-    <h1>Event <?php echo $event["titre"]?></h1>
+    <h1>Event : <?php echo $event["titre"]?></h1>
     <input type="hidden" value="<?php echo $id ?>" name="id">
 
     <table class="highlight">

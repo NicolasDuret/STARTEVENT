@@ -24,8 +24,8 @@ $resultats = $r->fetchAll();
         <li class="collection-item avatar">
             <i class="material-icons circle">toys</i>
             <span class="title"><b><?php echo $resultat["titre"] ?></b> - <?php echo $resultat["description"] ?></span></br>
-            </br>Nombre de participants :<?php echo $resultat["nbPersonne"] ?></br>
-            Total de la cagnotte :<?php echo $resultat["frais"] ?></br>
+            </br>Nombre de participants : <b><?php echo $resultat["nbPersonne"] ?></b></br>
+            Total de la cagnotte : <b><?php echo $resultat["frais"] ?> €</b></br>
             <a href="tableau_event.php?id=<?php echo $resultat["id"]?>" class="secondary-content"><i class="material-icons">camera</i></a>
         </li>
     </ul>
