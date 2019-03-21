@@ -26,5 +26,4 @@
             </div>
         </div>
     </form>
-<?php var_dump($idEvent); ?>
 <?php include_once "footer.php" ?>

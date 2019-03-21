@@ -1,5 +1,5 @@
 </main>
-<footer class="page-footer">
+<footer class="page-footer #b71c1c red darken-4">
     <div class="footer-copyright">
         <div class="container">
             &copy; 2018 StartEvent Corp&trade; Inc. Internationnal

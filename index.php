@@ -22,16 +22,16 @@ $resultats = $r->fetchAll();
     ?>
     <ul class="collection">
         <li class="collection-item avatar">
-            <i class="material-icons circle">toys</i>
+            <i class="material-icons circle black">today</i>
             <span class="title"><b><?php echo $resultat["titre"] ?></b> - <?php echo $resultat["description"] ?></span></br>
             </br>Nombre de participants : <b><?php echo $resultat["nbPersonne"] ?></b></br>
             Total de la cagnotte : <b><?php echo $resultat["frais"] ?> €</b></br>
-            <a href="tableau_event.php?id=<?php echo $resultat["id"]?>" class="secondary-content"><i class="material-icons">camera</i></a>
+            <a href="tableau_event.php?id=<?php echo $resultat["id"]?>" class="secondary-content"><div class="arrow"><i class="material-icons large">arrow_forward</i></div></a>
         </li>
     </ul>
 <?php } ?>
 
-<a href="creer_event.php" class="btn-large">
+<a href="creer_event.php" class="btn-large #b71c1c red darken-4">
     <i class="material-icons left">add_circle_outline</i>
     Créez votre évènement...
 </a>
