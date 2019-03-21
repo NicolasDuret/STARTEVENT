@@ -8,10 +8,27 @@ main {
 }
 .container{
     padding-top: 5vh;
+
 }
-.brand-logo img{
-    max-width:12vw;
+.brand-logo{
+    width:40%;
+    max-width: 20vw;
+    min-width: 15vw;
 }
+
+btn-large{
+    padding-bottom: 2vh;
+}
+
 .arrow{
     color:#b71c1c;
 }
+
+
+@media (min-width: 1000px) {
+    .brand-logo{
+        max-width: 12vw;
+    }
+
+}
+
